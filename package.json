@@ -90,7 +90,7 @@
     "bundle:browser:prod": "npm run bundle:browser -- --outfile=./bundle/browser.min.js --minify",
     "bundle:cf-worker": "esbuild ./dist/src/platform/cf-worker.js --banner:js=\"/* eslint-disable */\" --bundle --target=es2020 --keep-names --format=esm --define:global=globalThis --conditions=module --outfile=./bundle/cf-worker.js --platform=node",
     "build:docs": "typedoc",
-    "prepare": "npm run build",
+    "prepare-skip": "npm run build",
     "watch": "tspc --watch"
   },
   "repository": {

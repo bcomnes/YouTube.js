@@ -63,14 +63,6 @@ pnpm-lock.yaml
 # Temporary files for testing
 tmp/
 
-# Build output
-dist/
-bundle/*.js.*
-bundle/*.js
-bundle/*.cjs
-bundle/*.cjs.*
-deno/
-
 # VSCode files
 .vscode/
 
